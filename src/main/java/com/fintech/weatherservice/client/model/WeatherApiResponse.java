@@ -1,4 +1,10 @@
 package com.fintech.weatherservice.client.model;
 
-public record WeatherApiResponse() {
+import java.time.LocalDateTime;
+
+public record WeatherApiResponse(
+    LocalDateTime date,
+    String temperature
+) {
+
 }

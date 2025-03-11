@@ -1,4 +1,5 @@
 package com.fintech.weatherservice.model;
 
-public enum TemperatyreType {
+public enum TemperatureType {
+  C, F
 }
